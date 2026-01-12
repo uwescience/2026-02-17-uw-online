@@ -9,7 +9,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # Brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 venue: "University of Washington"
 # Full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-address: "WRF Data Science Studio, UW Physics/Astronomy Tower, 6th Floor, Campus Box 351570, 3910 15th Ave NE, Seattle, WA 98195"
+address: "online"
 #address: "online"
 country: "us"
 language: "en"
@@ -19,24 +19,24 @@ longitude: "-122.332071"
 # [OPTIONAL] what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 what3words:
 # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humandate: "FIXME"
+humandate: "February 17th - 20th, 2026"
 # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-humantime: "9:00 am - noon, PDT"  # PST is Nov-Mar; PDT is Mar-Nov
+humantime: "9:00 am - noon, PST"  # PST is Nov-Mar; PDT is Mar-Nov
 # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-startdate: FIXME
+startdate: 2026-02-17
 # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-enddate: FIXME
+enddate: 2026-02-20
 
 # boxed, comma-separated list of contact names for the host, lead instructor, or whoever else is handling questions, like ["Marylyn Wescoff", "Fram Bilas", "Ruth Lichterman"]
 contact: ["Person One", "Optional Person Two..."]
 # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-contact_email: ["first@example.org", "second@example.org"]
+contact_email: ["nben@uw.edu", "mweldens@uw.edu"]
 # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-instructor: ["instructor one", "instructor two"] 
+instructor: ["Noah Benson"] 
 # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-helper: ["helper one", "helper two"]
+helper: ["TBA"]
 # [OPTIONAL] URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-collaborative_notes:
+collaborative_notes: https://pad.carpentries.org/2026-02-17-uw-online
 # [OPTIONAL] Google form responder link for workshop sign-up form (e.g., https://docs.google.com/forms/d/e/1FAIpQLSdy-eKjqdLB7H2uMcbCtF_4KqKpzF0YVfj_hI0alxIFai8qEw/viewform?usp=dialog)
 googleform:
 # [OPTIONAL] Once the course has sold out, set this to true; instead of the registration information, the page will display an alert about registration being sold out.
@@ -54,33 +54,6 @@ Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
-
-
-
-{% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-If this is a pilot workshop for a new lesson,
-set the `pilot` field to `true` in `_config.yml`.
-For workshops teaching a lesson in The Carpentries Incubator,
-remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
-fields in `_config.yml`
-</div>
-
-{% comment %}
-8< ============================= until here ==================
 {% endcomment %}
 
 {% comment %}
