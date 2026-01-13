@@ -38,7 +38,7 @@ helper: ["TBA"]
 # [OPTIONAL] URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 collaborative_notes: https://pad.carpentries.org/2026-02-17-uw-online
 # [OPTIONAL] Google form responder link for workshop sign-up form (e.g., https://docs.google.com/forms/d/e/1FAIpQLSdy-eKjqdLB7H2uMcbCtF_4KqKpzF0YVfj_hI0alxIFai8qEw/viewform?usp=dialog)
-googleform: https://forms.gle/1LY6JaUcuG8enbbU9
+googleform: https://docs.google.com/forms/d/e/1FAIpQLSdxzDMl84s9OtBvOuE7phq6uvsWQ08nRUBsGnA8kzr0rTzJ0g/viewform?usp=header
 # [OPTIONAL] Once the course has sold out, set this to true; instead of the registration information, the page will display an alert about registration being sold out.
 classfull: false
 # [OPTIONAL] If there is a waitlist, provide a link to it here, and it will be displayed when classfull (the above line) is true.
