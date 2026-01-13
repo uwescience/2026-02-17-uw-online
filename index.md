@@ -106,10 +106,6 @@ header.  You can delete it if you do not want this section to appear.
     <li>In order to register for the workshop, you must first follow the <a href="#setup">setup instructions</a>, below. You must install all four tools: <a href="#the-bash-shell">the Bash Shell</a>, <a href="#git-1">Git</a>, a <a href="#text-editor">Text Editor</a>, and 
 {% if page.flavor == "python" %}
     <a href="#python-1">Python</a>.
-{% elsif page.flavor == "r" %}
-    <a href="#r-1">R</a>.
-{% else %}
-    either <a href="#python-1">Python</a> or <a href="#r-1">R</a>, depending on which track you choose.
 {% endif %}
     </li>
     <li>If you are unable to follow the instructions, please email {{ page.contact[0] }} &lt;<a href="mailto:{{ page.contact_email[0] }}">{{ page.contact_email[0] }}</a>&gt; for assistance; we will help you install the software then give you a registration link.</li>
