@@ -28,7 +28,7 @@ startdate: 2026-02-17
 enddate: 2026-02-20
 
 # boxed, comma-separated list of contact names for the host, lead instructor, or whoever else is handling questions, like ["Marylyn Wescoff", "Fram Bilas", "Ruth Lichterman"]
-contact: ["Person One", "Optional Person Two..."]
+contact: ["Noah Benson"]
 # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 contact_email: ["nben@uw.edu", "mweldens@uw.edu"]
 # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
