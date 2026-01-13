@@ -103,10 +103,7 @@ header.  You can delete it if you do not want this section to appear.
   <div style="background-color: #EEFFEE; width: 100%; border-style: solid; border-color: green; border-width: 5px; padding: 5px; overflow: auto;">
   <h2 id="registration">Registration Information</h2>
   <ul>
-    <li>In order to register for the workshop, you must first follow the <a href="#setup">setup instructions</a>, below. You must install all four tools: <a href="#the-bash-shell">the Bash Shell</a>, <a href="#git-1">Git</a>, a <a href="#text-editor">Text Editor</a>, and 
-{% if page.flavor == "python" %}
-    <a href="#python-1">Python</a>.
-{% endif %}
+    <li>In order to register for the workshop, you must first follow the <a href="#setup">setup instructions</a>, below. You must install all four tools: <a href="#the-bash-shell">the Bash Shell</a>, <a href="#git-1">Git</a>, a <a href="#text-editor">Text Editor</a>, and <a href="#python-1">Python</a>.
     </li>
     <li>If you are unable to follow the instructions, please email {{ page.contact[0] }} &lt;<a href="mailto:{{ page.contact_email[0] }}">{{ page.contact_email[0] }}</a>&gt; for assistance; we will help you install the software then give you a registration link.</li>
     <li>Otherwise, once you have followed these instructions, please fill out <a href="{{ page.googleform }}">this Google Form</a>. You will not be able to complete the form if you have not successfully installed all four pieces of software.</li>
